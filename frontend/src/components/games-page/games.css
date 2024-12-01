@@ -1,0 +1,94 @@
+.game_section {
+    background-color: #ffffff !important;
+    height: auto !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.game_content {
+    padding: 40px 50px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.main_content a{
+    font-size: 18px;
+    text-align: center;
+}
+
+.age_group {
+    display: flex;
+    align-items: center;
+}
+
+.age_group a{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.games_group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.game_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    margin-bottom: 0px !important;
+    height: 350px;
+    /* min-height: 200px; */
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #cad1d4;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 15px;
+    margin-bottom: 30px !important;
+    padding-bottom: 15px !important;
+    text-align: left;
+    margin-right: 50px !important;
+    min-width: 250px;
+}
+
+.game_card h2 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.game_card a{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-right: auto;
+}
+
+.game_card_image {
+    height: 650%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.game_cropped-image {
+    width: 100%; /* Ширина изображения 100% от контейнера */
+    height: 100%; /* Высота изображения 100% от контейнера */
+    object-fit: cover; /* Масштабируем изображение, чтобы оно заполнило контейнер, подрезая края */
+    object-position: center; /* Центрируем изображение в контейнере */
+}
+
+.game_name {
+    font-size: 220px;
+}
+
+.custom {
+    margin-top: 15px;
+}

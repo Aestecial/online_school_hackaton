@@ -1,0 +1,14 @@
+# Используем базовый образ nginx
+FROM nginx:latest
+
+# Удаляем стандартную конфигурацию nginx
+RUN rm -rf /usr/share/nginx/html/*
+
+# Копируем файлы сборки React в nginx
+COPY build/ /usr/share/nginx/html/
+
+# Указываем порт для доступа
+EXPOSE 80
+
+# Запуск nginx
+CMD ["nginx", "-g", "daemon off;"]

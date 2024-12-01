@@ -1,0 +1,33 @@
+.games-container {
+    background-color: #ffffff !important;
+    margin: 20px;
+    min-height: 10vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 20px; /* Space between game cards */
+    justify-content: center; /* Center the game cards */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.iframe-fullscreen {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.ai-iframe-fullscreen {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0; /* Убираем закругления */
+    
+}

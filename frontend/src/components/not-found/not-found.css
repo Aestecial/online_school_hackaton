@@ -1,0 +1,31 @@
+.main_section {
+    background-color: #ffffff !important;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.not_found {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 40px 50px;
+}
+
+.not_found a{
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #0da4da;
+    margin-top: 0px !important;
+}
+
+.underline:hover {
+    cursor: pointer;
+}

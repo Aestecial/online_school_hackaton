@@ -1,0 +1,100 @@
+.course-steps-container {
+    background-color: #ffffff !important; /* Ensure a white background */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 80vh; /* Minimum height, but it will grow with content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Keep the shadow */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Add internal spacing */
+}
+
+
+.course-steps-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-steps-message {
+    text-align: center;
+    font-size: 16px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.course-steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.course-step-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.course-step-card.available {
+    background-color: #ffffff;
+    border-left: 5px solid #28a745;
+}
+
+.course-step-card.completed {
+    background-color: #e9ecef;
+    border-left: 5px solid #6c757d;
+}
+
+.course-step-content {
+    flex: 1;
+}
+
+.course-step-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.course-step-title.line-through {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.course-step-status {
+    font-size: 14px;
+    color: #555;
+}
+
+.course-step-actions {
+    margin-left: 15px;
+}
+
+.course-step-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.course-step-button.start-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.course-step-button.start-button:hover {
+    background-color: #1e7e34;
+}
+
+.course-step-button.completed-button {
+    background-color: #6c757d;
+    color: white;
+    cursor: not-allowed;
+}

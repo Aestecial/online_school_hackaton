@@ -1,0 +1,89 @@
+.referrals-container {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+}
+
+.referrals-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Увеличиваем заголовок */
+}
+
+.referrals-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.referrals-container li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.referrals-container li:last-child {
+    border-bottom: none;
+}
+
+.referrals-container p {
+    margin: 5px 0;
+    font-size: 1em; /* Уменьшаем размер текста */
+}
+
+.loading {
+    text-align: center;
+    color: #38bff2;
+    font-size: 18px;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+
+/* Мобильные устройства */
+@media screen and (max-width: 768px) {
+    .referrals-container {
+        padding: 15px; /* Уменьшаем внутренний отступ */
+        max-width: 100%; /* Контейнер занимает всю ширину */
+        margin: 10px; /* Уменьшаем внешние отступы */
+    }
+
+    .referrals-container h2 {
+        font-size: 1.2em; /* Уменьшаем размер заголовка */
+        margin-bottom: 15px; /* Уменьшаем нижний отступ */
+    }
+
+    .referrals-container li {
+        padding: 8px; /* Уменьшаем внутренний отступ у элементов списка */
+    }
+
+    .referrals-container p {
+        font-size: 0.9em; /* Уменьшаем текстовые элементы */
+    }
+
+    .loading, .error {
+        font-size: 16px; /* Уменьшаем размер текста сообщений */
+    }
+}
+
+/* Очень узкие устройства (например, телефоны до 480px) */
+@media screen and (max-width: 480px) {
+    .referrals-container {
+        padding: 10px; /* Минимальный отступ */
+        margin: 5px; /* Уменьшаем внешний отступ */
+    }
+
+    .referrals-container h2 {
+        font-size: 1em; /* Еще меньше для заголовков */
+    }
+
+    .referrals-container p {
+        font-size: 0.8em; /* Более компактный текст */
+    }
+}

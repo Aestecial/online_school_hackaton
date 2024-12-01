@@ -1,0 +1,90 @@
+/* Измененные стили с уникальными классами */
+.step-container {
+    background-color: #ffffff !important;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 80vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.step-container h3 {
+    font-size: 2rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.step-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.step-container pre {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.step-container code {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+}
+
+.step-container ul, .step-container ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.step-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.step-container a:hover {
+    text-decoration: underline;
+}
+
+.step-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.step-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.step-button:hover {
+    background-color: #218838;
+}
+
+.step-code-block {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+    overflow-x: auto;
+}
+
+.step-code-block button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

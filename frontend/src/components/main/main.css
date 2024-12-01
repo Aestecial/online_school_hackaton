@@ -1,0 +1,87 @@
+.main_section {
+    background-color: #ffffff !important;
+    margin: 20px auto !important;
+    height: auto !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.main_content {
+    padding: 40px 50px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.main_content a{
+    font-size: 18px;
+    text-align: center;
+}
+
+.card_catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    margin-bottom: 0px !important;
+    height: 400px;
+    /* min-height: 200px; */
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #cad1d4;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 15px;
+    margin-bottom: 0px !important;
+    padding-bottom: 15px !important;
+    text-align: left;
+}
+
+.card h2 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.card a{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card_image {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cropped-image {
+    width: 100%; /* Ширина изображения 100% от контейнера */
+    height: 100%; /* Высота изображения 100% от контейнера */
+    object-fit: cover; /* Масштабируем изображение, чтобы оно заполнило контейнер, подрезая края */
+    object-position: center; /* Центрируем изображение в контейнере */
+}
+
+.orange_let {
+    color: #F15525;
+}
+
+.custom {
+    padding-top: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 0;
+}
